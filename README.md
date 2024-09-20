@@ -15,7 +15,7 @@ DecContainerを使用したPythonの開発環境のテンプレートです。�
 自分のプロジェクト名を指定してリポジトリをクローンします。
 
 ```
-git clone git@github.com:whitebearman/pyhhon-env-basic.git [your-project-name]
+git clone git@github.com:whitebearman/python-env-basic.git [your-project-name]
 ```
 
 `myproject` ディレクトリの名前を、クローンするときに指定した`[your-project-name]` に変更します。
