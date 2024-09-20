@@ -1,0 +1,13 @@
+# formatter linter
+ruff
+
+# jupyter
+ipykernel
+jupyter
+
+# for analytics
+numpy
+pandas
+matplotlib
+seaborn
+scikit_learn

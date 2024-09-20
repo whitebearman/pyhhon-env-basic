@@ -1,0 +1,29 @@
+{
+    "name": "Python Dev Container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "[python]": {
+                    "editor.defaultFormatter": "charliermarsh.ruff",
+                    "editor.formatOnType": true
+                }
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "formulahendry.code-runner",
+                "njpwerner.autodocstring",
+                "oderwat.indent-rainbow",
+                "charliermarsh.ruff",
+                "christian-kohler.path-intellisense",
+                "usernamehw.errorlens",
+                "VisualStudioExptTeam.vscodeintellicode"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+}
